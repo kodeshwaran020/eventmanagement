@@ -18,7 +18,7 @@ public class Usercontroller {
 
     Userservice userservice;
 
-    @GetMapping("/hello")
+    @GetMapping("/h")
     public String go() {
         return "hello";
     }
